@@ -13,9 +13,9 @@ public:
     void setFerence(double newFerence);
     void setArea(double newArea);
 
-    int getRadius();
-    int getFerence();
-    int getArea();
+    double getRadius();
+    double getFerence();
+    double getArea();
 };
 
 #endif

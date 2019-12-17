@@ -25,15 +25,15 @@ void Circle::setArea(double newArea) {
     ference = 2*PI*radius;
 }
 
-int Circle::getRadius() {
+double Circle::getRadius() {
     return radius;
 }
 
-int Circle::getFerence() {
+double Circle::getFerence() {
     return ference;
 }
 
-int Circle::getArea() {
+double Circle::getArea() {
     return area;
 }
 

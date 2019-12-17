@@ -7,9 +7,9 @@
 class DateTime {
 private:
     tm date;
-    std::string months[12] = {"January", "February", "March", "April", "May",
-                              "June", "July", "August", "September", "October", "November", "December"};
-    std::string days[7] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+    std::string months[12] = {"january", "february", "march", "april", "may",
+                              "june", "july", "august", "september", "october", "november", "december"};
+    std::string days[7] = {"sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"};
 public:
     DateTime(int day, int month, int year);
     DateTime();
