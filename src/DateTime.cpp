@@ -69,6 +69,6 @@ std::string DateTime::getYesterday() {
     return getPast(1);
 }
 
-DateTime::getDifference(DateTime& given_date) {
+int DateTime::getDifference(DateTime& given_date) {
     return abs(mktime(&date) - mktime(&given_date.date))/(24 * 60 * 60);
 }
