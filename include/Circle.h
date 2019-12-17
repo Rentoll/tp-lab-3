@@ -7,11 +7,11 @@ private:
 public:
     const double PI = 3.14;
 
-    Circle(double);
+    Circle(double newRadius);
 
-    int setRadius(double);
-    int setFerence(double);
-    int setArea(double);
+    int setRadius(double newRadius);
+    int setFerence(double newFerence);
+    int setArea(double newArea);
 
     int getRadius();
     int getFerence();

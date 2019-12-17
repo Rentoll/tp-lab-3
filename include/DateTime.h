@@ -11,14 +11,14 @@ private:
                               "June", "July", "August", "September", "October", "November", "December"};
     std::string days[7] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 public:
-    DateTime(int, int, int);
+    DateTime(int day, int month, int year);
     DateTime();
-    DateTime(const DateTime&);
+    DateTime(const DateTime& datetime);
     std::string getToday();
     std::string getYesterday();
     std::string getTomorrow();
-    std::string getFuture(int);
-    std::string getPast(int);
+    std::string getFuture(int N);
+    std::string getPast(int N);
     int getDifference(DateTime&);
 };
 #endif //TASK1_DATETIME_H
