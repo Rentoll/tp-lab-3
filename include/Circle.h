@@ -9,9 +9,9 @@ public:
 
     Circle(double newRadius);
 
-    int setRadius(double newRadius);
-    int setFerence(double newFerence);
-    int setArea(double newArea);
+    void setRadius(double newRadius);
+    void setFerence(double newFerence);
+    void setArea(double newArea);
 
     int getRadius();
     int getFerence();

@@ -7,33 +7,33 @@ Circle::Circle(double newRadius) {
     ference = 2 * PI * radius;
 }
 
-Circle::setRadius(double newRadius) {
+void Circle::setRadius(double newRadius) {
     radius = newRadius;
     area = PI * radius * radius;
     ference = 2 * PI * radius;
 }
 
-Circle::setFerence(double newFerence) {
+void Circle::setFerence(double newFerence) {
     ference = newFerence;
     radius = ference/(2*PI);
     area = PI*radius*radius;
 }
 
-Circle::setArea(double newArea) {
+void Circle::setArea(double newArea) {
     area = newArea;
     radius = sqrt(area/PI);
     ference = 2*PI*radius;
 }
 
-Circle::getRadius() {
+int Circle::getRadius() {
     return radius;
 }
 
-Circle::getFerence() {
+int Circle::getFerence() {
     return ference;
 }
 
-Circle::getArea() {
+int Circle::getArea() {
     return area;
 }
 
